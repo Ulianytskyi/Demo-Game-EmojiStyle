@@ -1,0 +1,174 @@
+body {
+	font-family: 'Poppins', 'Arial', sans-serif;
+	background-color: #daeaff;
+}
+
+h3 {
+	margin: 0;
+	padding-top: 10px;
+	color: #3185ca;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.title {
+	position: relative;
+	text-align: center;
+}
+
+.title-name {
+	margin: 0;
+	color: #3b6e97;
+	font-family: 'Poppins', sans-serif;
+	font-size: 34px;
+	font-weight: bold;
+	text-shadow: #9dc4fb 2px 3px;
+}
+
+.container {
+	position: relative;
+	top: 3vh;
+	width: 340px;
+	height: 450px;
+	margin: 0 auto;
+	background-color: #9dc4fb;
+	padding: 10px 0;
+	box-shadow: 0 0 4px 0 #979797;
+	border-radius: 4px;
+}
+
+.game-field {
+	width: 300px;
+	height: 300px;
+	background-color: whitesmoke;
+	margin: 0 auto;
+	padding: 2px;
+	border-radius: 4px;
+}
+
+#field {
+	display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.object,
+.btn {
+	width: 96px;
+	height: 96px;
+	margin: 2px;
+	background-color: #3185ca87;
+	color: whitesmoke;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+}
+
+.btn {
+	margin: 0;
+	border: 0;
+	background-color: #3185ca;
+	cursor: pointer;
+}
+
+.object-name {
+	font-size: 18px;
+}
+
+.object-number {
+	font-size: 32px;
+}
+
+.player {
+	display: flex;
+	justify-content: space-between;
+}
+
+.player-stats {
+	font-weight: bold;
+	display: flex;
+	flex-direction: column;
+	padding: 0 0 0 20px;
+	justify-content: center;
+}
+
+.player-view {
+	width: 170px;
+	height: 155px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+	padding-right: 0px;
+}
+
+#player-image {
+	position: relative;
+	top: 30px;
+	width: 200px;	
+}
+
+#armor-status {
+	color: white;
+	background-color: red;
+	padding: 4px 4px;
+	border-radius: 4px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.cover-screen {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#start-button {
+	background-color: #3185ca;
+	width: 200px;
+	height: 48px;
+	border-radius: 6px;
+	border: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	text-transform: uppercase;
+	box-shadow: 0 0px 0px 0px #426a8b;
+}
+
+#start-button:hover {
+	font-size: 1.27em;
+	box-shadow: 0 0px 1px 2px #426a8b;
+}
+
+.hide {
+    display: none;
+}
+
+#over-text {
+	color: #022541;
+	font-size: 2em;
+	text-shadow: #9dc4fb 2px 5px;
+}
+
+#result {
+	background-color: #9dc4fb;
+	padding: 20px 30px;
+	border-radius: 6px;
+	color: #022541;
+	font-weight: bold;
+	font-size: 1.55em;
+	margin-bottom: 60px;
+	text-shadow: white 2px 2px;
+}
